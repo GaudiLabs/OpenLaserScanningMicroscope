@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/gaudi/Documents/Projekte/DVDLaserScanner/PCB/DVDLaserScannerII/DVDLaserScanner.sch</source>
+    <date>Wed 21 Jun 2017 04:59:09 PM CEST</date>
+    <tool>Eeschema no-vcs-found-6733101~58~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DVDLaserScanner.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>ARDUINO_MICRO</value>
+      <footprint>GaudiLabsFootPrints:ARDUINO_MICRO_SMD</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="ARDUINO_MICRO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0248</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>MountPad3</value>
+      <footprint>GaudiLabsFootPrints:MountingHoleM3</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="MountPad3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0363</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>MountPad3</value>
+      <footprint>GaudiLabsFootPrints:MountingHoleM3</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="MountPad3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D042B</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>MountPad3</value>
+      <footprint>GaudiLabsFootPrints:MountingHoleM3</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="MountPad3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D04CB</tstamp>
+    </comp>
+    <comp ref="X4">
+      <value>MountPad3</value>
+      <footprint>GaudiLabsFootPrints:MountingHoleM3</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="MountPad3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D052B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP4922-E/SL</value>
+      <footprint>GaudiLabsFootPrints:SOIC-14_N</footprint>
+      <libsource lib="adc-dac" part="MCP4922-E/SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0613</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP4922-E/SL</value>
+      <footprint>GaudiLabsFootPrints:SOIC-14_N</footprint>
+      <libsource lib="adc-dac" part="MCP4922-E/SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0723</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>POT</value>
+      <footprint>GaudiLabsFootPrints:CA6_VSMD</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D07D7</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>GaudiLabsFootPrints:CA6_VSMD</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0B6B</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>POT</value>
+      <footprint>GaudiLabsFootPrints:CA6_VSMD</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0BAF</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>POT</value>
+      <footprint>GaudiLabsFootPrints:CA6_VSMD</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D0C1F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D3CA8</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D3D68</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>8.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D4A4B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>15k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D51F4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>15k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D648C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>56k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586D6521</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>8.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586DC8E0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>15k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586DC9D6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>15k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586DCA84</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>56k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586DCB0C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586E1132</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586E12B4</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F0FAE</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>3.3k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586F2910</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MCP6002</value>
+      <footprint>GaudiLabsFootPrints:SOIC-08_N</footprint>
+      <libsource lib="linear" part="MCP6002"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586E7DE9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GDS</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <libsource lib="device" part="Q_NMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586E8943</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586E9462</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>8.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586E9762</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1.8k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EBBFF</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586EC775</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586ECFD5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586ED828</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NC_Dual</value>
+      <footprint>Connect:GS3</footprint>
+      <libsource lib="device" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FB3E6</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FB4AC</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>470</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586FF60A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58703A37</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>470</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58703EAD</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MCP4922-E/SL</value>
+      <footprint>GaudiLabsFootPrints:SOIC-14_N</footprint>
+      <libsource lib="adc-dac" part="MCP4922-E/SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5872A06D</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>Con45</value>
+      <footprint>GaudiLabsFootPrints:FFC_05_45</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="Con45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5872ED75</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TCA0372_DWG</value>
+      <footprint>GaudiLabsFootPrints:SO-16-W</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="TCA0372_DWG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5873BA74</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TCA0372_DWG</value>
+      <footprint>GaudiLabsFootPrints:SO-16-W</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="TCA0372_DWG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5873DDA4</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TCA0372_DWG</value>
+      <footprint>GaudiLabsFootPrints:SO-16-W</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="TCA0372_DWG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5873E7A3</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>Con45</value>
+      <footprint>GaudiLabsFootPrints:Pads</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="Con45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5872EA38</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>BUT</value>
+      <footprint>GaudiLabsFootPrints:PUSH_BUTTON_SMD</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="BUT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5873F553</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>Con45</value>
+      <footprint>GaudiLabsFootPrints:FFC_05_45</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="Con45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5928E471</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592943E8</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C6BAB</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C6D56</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>56k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C704F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10pF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C97D0</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>18k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592CBAE8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>68k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592CEB11</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>180k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592CF14D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>39pF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592CF2D4</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>39k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592CFA83</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592CFB8E</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592D7283</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>1.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E19F9</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1.2k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E19FF</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>56k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A05</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10pF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A14</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>18k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A20</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>68k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A2F</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>180k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A3B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>39pF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A41</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592E1A51</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>39k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592EC09A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592EC1C6</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>4.7k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5930C8BA</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>4.7k</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5930CCB0</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>CP_Small</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5931DB20</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TLC2274</value>
+      <footprint>GaudiLabsFootPrints:SOIC-14_N</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="TLC2274"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5928906D</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>TLC2274</value>
+      <footprint>GaudiLabsFootPrints:SOIC-14_N</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="TLC2274"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5929BD13</tstamp>
+    </comp>
+    <comp ref="X5">
+      <value>PAD</value>
+      <footprint>GaudiLabsFootPrints:PAD_SMD_3mm</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592BD6A0</tstamp>
+    </comp>
+    <comp ref="X6">
+      <value>PAD</value>
+      <footprint>GaudiLabsFootPrints:PAD_SMD_3mm</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592BDBBA</tstamp>
+    </comp>
+    <comp ref="X7">
+      <value>PAD</value>
+      <footprint>GaudiLabsFootPrints:PAD_SMD_3mm</footprint>
+      <libsource lib="GaudiLabsPartsLibrary" part="PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592BDC7E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>GaudiLabsFootPrints:0805G</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C0CA6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="GaudiLabsPartsLibrary" part="ARDUINO_MICRO">
+      <description>Arduino Micro shield</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO_MICRO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="BiDi"/>
+        <pin num="2" name="RX_LED/SS" type="BiDi"/>
+        <pin num="3" name="1/TX" type="BiDi"/>
+        <pin num="4" name="0/RX" type="BiDi"/>
+        <pin num="5" name="RESET" type="BiDi"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="2/SDA" type="BiDi"/>
+        <pin num="8" name="3(PWM)/SCL" type="BiDi"/>
+        <pin num="9" name="4/A6" type="BiDi"/>
+        <pin num="10" name="5(PWM)" type="BiDi"/>
+        <pin num="11" name="6(PWM)/A7" type="BiDi"/>
+        <pin num="12" name="7" type="BiDi"/>
+        <pin num="13" name="8/A8" type="BiDi"/>
+        <pin num="14" name="9(PWM)/A9" type="BiDi"/>
+        <pin num="15" name="10(PWM)/A10" type="BiDi"/>
+        <pin num="16" name="11(PWM)" type="BiDi"/>
+        <pin num="17" name="12/A11" type="BiDi"/>
+        <pin num="18" name="13(PWM)" type="BiDi"/>
+        <pin num="19" name="3.3V" type="power_in"/>
+        <pin num="20" name="AREF" type="power_in"/>
+        <pin num="21" name="A0" type="BiDi"/>
+        <pin num="22" name="A1" type="BiDi"/>
+        <pin num="23" name="A2" type="BiDi"/>
+        <pin num="24" name="A3" type="BiDi"/>
+        <pin num="25" name="A4" type="BiDi"/>
+        <pin num="26" name="A5" type="BiDi"/>
+        <pin num="27" name="NC" type="NotConnected"/>
+        <pin num="28" name="NC" type="NotConnected"/>
+        <pin num="29" name="+5V" type="power_in"/>
+        <pin num="30" name="RESET" type="BiDi"/>
+        <pin num="31" name="GND" type="power_in"/>
+        <pin num="32" name="VIN" type="power_in"/>
+        <pin num="33" name="MISO" type="BiDi"/>
+        <pin num="34" name="SCK" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="GaudiLabsPartsLibrary" part="BUT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">BUT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GaudiLabsPartsLibrary" part="Con45">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Con45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+        <pin num="17" name="17" type="input"/>
+        <pin num="18" name="18" type="input"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="input"/>
+        <pin num="21" name="21" type="input"/>
+        <pin num="22" name="22" type="input"/>
+        <pin num="23" name="23" type="input"/>
+        <pin num="24" name="24" type="input"/>
+        <pin num="25" name="25" type="input"/>
+        <pin num="26" name="26" type="input"/>
+        <pin num="27" name="27" type="input"/>
+        <pin num="28" name="28" type="input"/>
+        <pin num="29" name="29" type="input"/>
+        <pin num="30" name="30" type="input"/>
+        <pin num="31" name="31" type="input"/>
+        <pin num="32" name="32" type="input"/>
+        <pin num="33" name="33" type="input"/>
+        <pin num="34" name="34" type="input"/>
+        <pin num="35" name="35" type="input"/>
+        <pin num="36" name="36" type="input"/>
+        <pin num="37" name="37" type="input"/>
+        <pin num="38" name="38" type="input"/>
+        <pin num="39" name="39" type="input"/>
+        <pin num="40" name="40" type="input"/>
+        <pin num="41" name="41" type="input"/>
+        <pin num="42" name="42" type="input"/>
+        <pin num="43" name="43" type="input"/>
+        <pin num="44" name="44" type="input"/>
+        <pin num="45" name="45" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Dual">
+      <description>Dual Jumper, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="adc-dac" part="MCP4922-E/P">
+      <aliases>
+        <alias>MCP4922-E/SL</alias>
+        <alias>MCP4922-E/ST</alias>
+      </aliases>
+      <description>Dual 12-bit Digital to Analog Converter, SPI Interface, PDIP-14</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>PDIP*</fp>
+        <fp>SO*</fp>
+        <fp>SOIC*</fp>
+        <fp>TSSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4922-E/P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="~CS~" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDI" type="input"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="~LDAC~" type="input"/>
+        <pin num="9" name="~SHDN~" type="input"/>
+        <pin num="10" name="VoutB" type="passive"/>
+        <pin num="11" name="VrefB" type="passive"/>
+        <pin num="12" name="AVSS" type="power_in"/>
+        <pin num="13" name="VrefA" type="passive"/>
+        <pin num="14" name="VoutA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GaudiLabsPartsLibrary" part="MountPad3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MountPad3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="OP275">
+      <aliases>
+        <alias>ADA4075</alias>
+        <alias>MCP6002</alias>
+        <alias>LM7332</alias>
+      </aliases>
+      <description>Dual Op amp (low power)</description>
+      <docs>analog-dev/op275.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>SOP*</fp>
+        <fp>LFCSP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP275</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="GaudiLabsPartsLibrary" part="PAD">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GDS">
+      <description>Transistor N-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GaudiLabsPartsLibrary" part="TCA0372_DWG">
+      <description>Dual Op amp, rail-to-rail, 8MHz, MSOP8, SOIC8</description>
+      <docs>http://www.st.com/resource/en/datasheet/tsv914a.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA0372_DWG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V" type="power_in"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="4" name="G" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="7" name="-" type="input"/>
+        <pin num="8" name="+" type="input"/>
+        <pin num="9" name="+" type="input"/>
+        <pin num="10" name="-" type="input"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="16" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="GaudiLabsPartsLibrary" part="TLC2274">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC2274</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="VDD+" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="OUT" type="input"/>
+        <pin num="8" name="OUT" type="input"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="VDD-" type="input"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="GaudiLabsPartsLibrary">
+      <uri>/home/gaudi/Documents/Projekte/KiCadLibrary/GaudiLabsPartsLibrary.lib</uri>
+    </library>
+    <library logical="adc-dac">
+      <uri>/usr/share/kicad/library/adc-dac.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="F-">
+      <node ref="U6" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="2" name="DAC_DI">
+      <node ref="U8" pin="5"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="VREF_DAC">
+      <node ref="U2" pin="13"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U8" pin="11"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="4" name="PD_BD">
+      <node ref="R22" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U9" pin="14"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="5" name="PD_AC">
+      <node ref="U9" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="6" name="DAC_SCK">
+      <node ref="U8" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="34"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="7" name="DAC1CS">
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R1-Pad1)">
+      <node ref="U4" pin="10"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="11" name="I_LASER">
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R15-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R10-Pad1)">
+      <node ref="U6" pin="8"/>
+      <node ref="U6" pin="9"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C4-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="15" name="DAC3CS">
+      <node ref="U3" pin="11"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="16" name="Net-(R14-Pad1)">
+      <node ref="U3" pin="12"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="18" name="POT3">
+      <node ref="U3" pin="15"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="19" name="PD_FE">
+      <node ref="U3" pin="26"/>
+      <node ref="R29" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="20" name="PD_RF">
+      <node ref="U3" pin="25"/>
+      <node ref="U13" pin="7"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="21" name="POT1">
+      <node ref="RV1" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="22" name="POT2">
+      <node ref="RV2" pin="2"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="23" name="POT4">
+      <node ref="U3" pin="17"/>
+      <node ref="RV4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C4-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="27" name="RF2">
+      <node ref="U10" pin="44"/>
+      <node ref="U11" pin="44"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="28" name="RF1">
+      <node ref="JP1" pin="1"/>
+      <node ref="U11" pin="43"/>
+      <node ref="U10" pin="43"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="U7" pin="4"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U8" pin="12"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U11" pin="17"/>
+      <node ref="U11" pin="21"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U11" pin="34"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U5" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U10" pin="21"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U10" pin="7"/>
+      <node ref="U11" pin="45"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U11" pin="27"/>
+      <node ref="U11" pin="37"/>
+      <node ref="U11" pin="19"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U13" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="31"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="5"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U10" pin="34"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U10" pin="45"/>
+      <node ref="U10" pin="27"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U10" pin="37"/>
+      <node ref="U10" pin="19"/>
+      <node ref="U10" pin="17"/>
+      <node ref="U6" pin="13"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="30" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="32" name="Net-(R36-Pad1)">
+      <node ref="R37" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="33" name="OFFSET">
+      <node ref="U8" pin="10"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R4-Pad1)">
+      <node ref="U5" pin="7"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="35" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="36" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(R3-Pad2)">
+      <node ref="U2" pin="14"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="39" name="Net-(U13-Pad10)">
+      <node ref="U13" pin="10"/>
+    </net>
+    <net code="40" name="Net-(U13-Pad9)">
+      <node ref="U13" pin="9"/>
+    </net>
+    <net code="41" name="Net-(U13-Pad8)">
+      <node ref="U13" pin="8"/>
+    </net>
+    <net code="42" name="Net-(R12-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="U13" pin="12"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="43" name="Net-(JP1-Pad2)">
+      <node ref="U13" pin="5"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R3-Pad1)">
+      <node ref="U5" pin="10"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C9-Pad1)">
+      <node ref="R32" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C1-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="47" name="Net-(C2-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="48" name="Net-(C10-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U9" pin="6"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="49" name="F1+">
+      <node ref="X6" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="50" name="VREF1">
+      <node ref="U4" pin="8"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U12" pin="3"/>
+      <node ref="X5" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="51" name="T1+">
+      <node ref="U12" pin="6"/>
+      <node ref="U4" pin="16"/>
+      <node ref="X7" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="52" name="Net-(R34-Pad2)">
+      <node ref="U13" pin="6"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C8-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U10-Pad30)">
+      <node ref="U11" pin="30"/>
+      <node ref="U10" pin="30"/>
+    </net>
+    <net code="55" name="Net-(U10-Pad31)">
+      <node ref="U10" pin="31"/>
+      <node ref="U11" pin="31"/>
+    </net>
+    <net code="56" name="Net-(U10-Pad29)">
+      <node ref="U10" pin="29"/>
+      <node ref="U11" pin="29"/>
+    </net>
+    <net code="57" name="Net-(U10-Pad28)">
+      <node ref="U10" pin="28"/>
+      <node ref="U11" pin="28"/>
+    </net>
+    <net code="58" name="Net-(U10-Pad25)">
+      <node ref="U11" pin="25"/>
+      <node ref="U10" pin="25"/>
+    </net>
+    <net code="59" name="Net-(U10-Pad24)">
+      <node ref="U10" pin="24"/>
+      <node ref="U11" pin="24"/>
+    </net>
+    <net code="60" name="Net-(U10-Pad23)">
+      <node ref="U10" pin="23"/>
+      <node ref="U11" pin="23"/>
+    </net>
+    <net code="61" name="Net-(U10-Pad22)">
+      <node ref="U11" pin="22"/>
+      <node ref="U10" pin="22"/>
+    </net>
+    <net code="62" name="Net-(U10-Pad20)">
+      <node ref="U10" pin="20"/>
+      <node ref="U11" pin="20"/>
+    </net>
+    <net code="63" name="Net-(U10-Pad5)">
+      <node ref="U11" pin="5"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="64" name="DAC2CS">
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="65" name="DAC_LATCH">
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="66" name="VREF">
+      <node ref="U9" pin="10"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U13" pin="13"/>
+      <node ref="U13" pin="14"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U10" pin="26"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U11" pin="26"/>
+    </net>
+    <net code="67" name="Net-(U10-Pad11)">
+      <node ref="U11" pin="11"/>
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="68" name="Net-(U10-Pad14)">
+      <node ref="U10" pin="14"/>
+      <node ref="U11" pin="14"/>
+    </net>
+    <net code="69" name="Net-(U10-Pad12)">
+      <node ref="U10" pin="12"/>
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="70" name="Net-(U10-Pad8)">
+      <node ref="U11" pin="8"/>
+      <node ref="U10" pin="8"/>
+    </net>
+    <net code="71" name="Net-(C5-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="72" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="73" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="74" name="Net-(U10-Pad2)">
+      <node ref="U11" pin="2"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="82" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="83" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="84" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="85" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="86" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="87" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="88" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="89" name="Net-(X4-Pad1)">
+      <node ref="X4" pin="1"/>
+    </net>
+    <net code="90" name="Net-(X3-Pad1)">
+      <node ref="X3" pin="1"/>
+    </net>
+    <net code="91" name="Net-(X2-Pad1)">
+      <node ref="X2" pin="1"/>
+    </net>
+    <net code="92" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="93" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="94" name="Net-(U3-Pad32)">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="95" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="96" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="97" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="98" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="99" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="100" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="101" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="102" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="103" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="104" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="105" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="106" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="107" name="Net-(U3-Pad33)">
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="112" name="Net-(U12-Pad10)">
+      <node ref="U12" pin="10"/>
+    </net>
+    <net code="113" name="Net-(U12-Pad12)">
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="114" name="Net-(U12-Pad41)">
+      <node ref="U12" pin="41"/>
+    </net>
+    <net code="115" name="Net-(U12-Pad31)">
+      <node ref="U12" pin="31"/>
+    </net>
+    <net code="116" name="Net-(U12-Pad21)">
+      <node ref="U12" pin="21"/>
+    </net>
+    <net code="117" name="Net-(U12-Pad11)">
+      <node ref="U12" pin="11"/>
+    </net>
+    <net code="118" name="Net-(U12-Pad40)">
+      <node ref="U12" pin="40"/>
+    </net>
+    <net code="119" name="Net-(U12-Pad30)">
+      <node ref="U12" pin="30"/>
+    </net>
+    <net code="120" name="Net-(U12-Pad20)">
+      <node ref="U12" pin="20"/>
+    </net>
+    <net code="121" name="Net-(U12-Pad9)">
+      <node ref="U12" pin="9"/>
+    </net>
+    <net code="122" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="123" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="124" name="Net-(U12-Pad5)">
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="125" name="Net-(U12-Pad2)">
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="126" name="INTENSITY">
+      <node ref="U8" pin="14"/>
+      <node ref="U10" pin="18"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U11" pin="18"/>
+    </net>
+    <net code="127" name="D_SIG">
+      <node ref="R28" pin="1"/>
+      <node ref="U10" pin="36"/>
+      <node ref="U11" pin="36"/>
+    </net>
+    <net code="128" name="SEL1">
+      <node ref="U3" pin="22"/>
+      <node ref="U10" pin="16"/>
+      <node ref="U11" pin="16"/>
+    </net>
+    <net code="129" name="B_SIG">
+      <node ref="U11" pin="35"/>
+      <node ref="U10" pin="35"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="130" name="SEL2">
+      <node ref="U10" pin="15"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U11" pin="15"/>
+    </net>
+    <net code="133" name="Net-(U12-Pad22)">
+      <node ref="U12" pin="22"/>
+    </net>
+    <net code="135" name="Net-(U12-Pad34)">
+      <node ref="U12" pin="34"/>
+    </net>
+    <net code="136" name="Net-(U12-Pad36)">
+      <node ref="U12" pin="36"/>
+    </net>
+    <net code="137" name="Net-(U12-Pad26)">
+      <node ref="U12" pin="26"/>
+    </net>
+    <net code="138" name="Net-(U12-Pad16)">
+      <node ref="U12" pin="16"/>
+    </net>
+    <net code="139" name="Net-(U12-Pad45)">
+      <node ref="U12" pin="45"/>
+    </net>
+    <net code="140" name="Net-(U12-Pad35)">
+      <node ref="U12" pin="35"/>
+    </net>
+    <net code="141" name="Net-(U12-Pad25)">
+      <node ref="U12" pin="25"/>
+    </net>
+    <net code="142" name="Net-(U12-Pad15)">
+      <node ref="U12" pin="15"/>
+    </net>
+    <net code="143" name="Net-(U12-Pad44)">
+      <node ref="U12" pin="44"/>
+    </net>
+    <net code="144" name="Net-(U12-Pad17)">
+      <node ref="U12" pin="17"/>
+    </net>
+    <net code="145" name="Net-(U12-Pad24)">
+      <node ref="U12" pin="24"/>
+    </net>
+    <net code="146" name="Net-(U12-Pad14)">
+      <node ref="U12" pin="14"/>
+    </net>
+    <net code="147" name="Net-(U12-Pad43)">
+      <node ref="U12" pin="43"/>
+    </net>
+    <net code="148" name="Net-(U12-Pad33)">
+      <node ref="U12" pin="33"/>
+    </net>
+    <net code="149" name="Net-(U12-Pad23)">
+      <node ref="U12" pin="23"/>
+    </net>
+    <net code="150" name="Net-(U12-Pad13)">
+      <node ref="U12" pin="13"/>
+    </net>
+    <net code="151" name="Net-(U12-Pad42)">
+      <node ref="U12" pin="42"/>
+    </net>
+    <net code="152" name="Net-(U12-Pad32)">
+      <node ref="U12" pin="32"/>
+    </net>
+    <net code="153" name="Net-(U12-Pad39)">
+      <node ref="U12" pin="39"/>
+    </net>
+    <net code="154" name="Net-(U12-Pad29)">
+      <node ref="U12" pin="29"/>
+    </net>
+    <net code="155" name="Net-(U12-Pad19)">
+      <node ref="U12" pin="19"/>
+    </net>
+    <net code="156" name="Net-(U12-Pad38)">
+      <node ref="U12" pin="38"/>
+    </net>
+    <net code="157" name="Net-(U12-Pad28)">
+      <node ref="U12" pin="28"/>
+    </net>
+    <net code="158" name="Net-(U12-Pad18)">
+      <node ref="U12" pin="18"/>
+    </net>
+    <net code="159" name="Net-(U12-Pad37)">
+      <node ref="U12" pin="37"/>
+    </net>
+    <net code="160" name="Net-(U12-Pad27)">
+      <node ref="U12" pin="27"/>
+    </net>
+    <net code="161" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="162" name="VCC_BLUE">
+      <node ref="U5" pin="1"/>
+      <node ref="U11" pin="41"/>
+      <node ref="U11" pin="40"/>
+      <node ref="U11" pin="13"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U11" pin="42"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U10" pin="40"/>
+      <node ref="U10" pin="13"/>
+      <node ref="U10" pin="41"/>
+      <node ref="U10" pin="42"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U11" pin="38"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U11" pin="39"/>
+      <node ref="U10" pin="10"/>
+      <node ref="U10" pin="9"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U11" pin="9"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U8" pin="9"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U13" pin="11"/>
+      <node ref="U10" pin="39"/>
+      <node ref="U10" pin="38"/>
+      <node ref="R9" pin="1"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="163" name="T2+">
+      <node ref="U5" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="164" name="F2+">
+      <node ref="R8" pin="1"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="165" name="C_SIG">
+      <node ref="U11" pin="33"/>
+      <node ref="U10" pin="33"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="166" name="A_SIG">
+      <node ref="U11" pin="32"/>
+      <node ref="U10" pin="32"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="167" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="168" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="169" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+  </nets>
+</export>

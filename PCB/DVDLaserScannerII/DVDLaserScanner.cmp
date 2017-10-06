@@ -1,0 +1,667 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed 21 Jun 2017 05:00:28 PM CEST
+
+BeginCmp
+TimeStamp = 5872E60C
+Path = 
+Reference = REF**;
+ValeurCmp = MicroscopeyScale;
+IdModule  = GaudiLabsLogos:MicroscopeyScale;
+EndCmp
+
+BeginCmp
+TimeStamp = 5873FB22
+Path = /5872ED75
+Reference = U11;
+ValeurCmp = Con45;
+IdModule  = GaudiLabsFootPrints:FFC_05_45;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D03EA
+Path = /586D0BAF
+Reference = RV4;
+ValeurCmp = POT;
+IdModule  = GaudiLabsFootPrints:CA6_VSMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D03E3
+Path = /586D0C1F
+Reference = RV3;
+ValeurCmp = POT;
+IdModule  = GaudiLabsFootPrints:CA6_VSMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D03DC
+Path = /586D07D7
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = GaudiLabsFootPrints:CA6_VSMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D03D5
+Path = /586D0B6B
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = GaudiLabsFootPrints:CA6_VSMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D03FC
+Path = /586D0613
+Reference = U1;
+ValeurCmp = MCP4922-E/SL;
+IdModule  = GaudiLabsFootPrints:SOIC-14_N;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D040E
+Path = /586D0723
+Reference = U2;
+ValeurCmp = MCP4922-E/SL;
+IdModule  = GaudiLabsFootPrints:SOIC-14_N;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D045A
+Path = /586D0248
+Reference = U3;
+ValeurCmp = ARDUINO_MICRO;
+IdModule  = GaudiLabsFootPrints:ARDUINO_MICRO_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D045F
+Path = /586D0363
+Reference = X1;
+ValeurCmp = MountPad3;
+IdModule  = GaudiLabsFootPrints:MountingHoleM3;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D0464
+Path = /586D042B
+Reference = X2;
+ValeurCmp = MountPad3;
+IdModule  = GaudiLabsFootPrints:MountingHoleM3;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D0469
+Path = /586D04CB
+Reference = X3;
+ValeurCmp = MountPad3;
+IdModule  = GaudiLabsFootPrints:MountingHoleM3;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D046E
+Path = /586D052B
+Reference = X4;
+ValeurCmp = MountPad3;
+IdModule  = GaudiLabsFootPrints:MountingHoleM3;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D7471
+Path = /586E12B4
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D7477
+Path = /586D648C
+Reference = R1;
+ValeurCmp = 15k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D747D
+Path = /586D6521
+Reference = R2;
+ValeurCmp = 56k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D7483
+Path = /586DCA84
+Reference = R3;
+ValeurCmp = 15k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D7489
+Path = /586DCB0C
+Reference = R4;
+ValeurCmp = 56k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D748F
+Path = /586D51F4
+Reference = R5;
+ValeurCmp = 15k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D7495
+Path = /586DC9D6
+Reference = R6;
+ValeurCmp = 15k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D749B
+Path = /586D4A4B
+Reference = R7;
+ValeurCmp = 8.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D74A1
+Path = /586DC8E0
+Reference = R8;
+ValeurCmp = 8.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D74A7
+Path = /586D3CA8
+Reference = R9;
+ValeurCmp = 4.7k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D74AD
+Path = /586D3D68
+Reference = R10;
+ValeurCmp = 4.7k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D74B3
+Path = /586E1132
+Reference = R11;
+ValeurCmp = 100k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D74B9
+Path = /586F0FAE
+Reference = R12;
+ValeurCmp = 4.7k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586D74BF
+Path = /586F2910
+Reference = R13;
+ValeurCmp = 3.3k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8742
+Path = /586ED828
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8748
+Path = /58703A37
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E874E
+Path = /586FB4AC
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E875C
+Path = /586E8943
+Reference = Q1;
+ValeurCmp = Q_NMOS_GDS;
+IdModule  = TO_SOT_Packages_SMD:TO-252-2Lead;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8762
+Path = /58703EAD
+Reference = R14;
+ValeurCmp = 470;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8768
+Path = /586E9762
+Reference = R15;
+ValeurCmp = 8.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E876E
+Path = /586EBBFF
+Reference = R16;
+ValeurCmp = 1.8k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8774
+Path = /586ECFD5
+Reference = R17;
+ValeurCmp = 100;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E877A
+Path = /586EC775
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8780
+Path = /586FF60A
+Reference = R19;
+ValeurCmp = 470;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8786
+Path = /586E9462
+Reference = R20;
+ValeurCmp = 10;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 586E8792
+Path = /586E7DE9
+Reference = U7;
+ValeurCmp = MCP6002;
+IdModule  = GaudiLabsFootPrints:SOIC-08_N;
+EndCmp
+
+BeginCmp
+TimeStamp = 58722CDE
+Path = /5872A06D
+Reference = U8;
+ValeurCmp = MCP4922-E/SL;
+IdModule  = GaudiLabsFootPrints:SOIC-14_N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5872A417
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3mm;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5872A422
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3mm;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58766384
+Path = /586FB3E6
+Reference = JP1;
+ValeurCmp = Jumper_NC_Dual;
+IdModule  = Connect:GS3;
+EndCmp
+
+BeginCmp
+TimeStamp = 587350CA
+Path = /592CFA83
+Reference = R21;
+ValeurCmp = 39k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5873D71F
+Path = /5873BA74
+Reference = U4;
+ValeurCmp = TCA0372_DWG;
+IdModule  = GaudiLabsFootPrints:SO-16-W;
+EndCmp
+
+BeginCmp
+TimeStamp = 5873D739
+Path = /5873DDA4
+Reference = U5;
+ValeurCmp = TCA0372_DWG;
+IdModule  = GaudiLabsFootPrints:SO-16-W;
+EndCmp
+
+BeginCmp
+TimeStamp = 5873D753
+Path = /5873E7A3
+Reference = U6;
+ValeurCmp = TCA0372_DWG;
+IdModule  = GaudiLabsFootPrints:SO-16-W;
+EndCmp
+
+BeginCmp
+TimeStamp = 5873E93D
+Path = /5872EA38
+Reference = U10;
+ValeurCmp = Con45;
+IdModule  = GaudiLabsFootPrints:Pads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5873EBC2
+Path = /5873F553
+Reference = SW1;
+ValeurCmp = BUT;
+IdModule  = GaudiLabsFootPrints:PUSH_BUTTON_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DBC3
+Path = /592CFB8E
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DBCF
+Path = /592CF2D4
+Reference = C2;
+ValeurCmp = 39pF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DBDB
+Path = /592C97D0
+Reference = C5;
+ValeurCmp = 10pF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DBF3
+Path = /592EC1C6
+Reference = C8;
+ValeurCmp = 22pF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DBFF
+Path = /592E1A41
+Reference = C9;
+ValeurCmp = 39pF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC0B
+Path = /592E1A14
+Reference = C10;
+ValeurCmp = 10pF;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC23
+Path = /592D7283
+Reference = R22;
+ValeurCmp = 10k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC2F
+Path = /592CF14D
+Reference = R23;
+ValeurCmp = 180k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC3B
+Path = /592CEB11
+Reference = R24;
+ValeurCmp = 68k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC47
+Path = /592CBAE8
+Reference = R25;
+ValeurCmp = 18k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC53
+Path = /592C704F
+Reference = R26;
+ValeurCmp = 56k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC5F
+Path = /592C6BAB
+Reference = R27;
+ValeurCmp = 1.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC6B
+Path = /592C6D56
+Reference = R28;
+ValeurCmp = 1.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC77
+Path = /592EC09A
+Reference = R29;
+ValeurCmp = 39k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC83
+Path = /592E1A51
+Reference = R30;
+ValeurCmp = 10k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC8F
+Path = /592E1A3B
+Reference = R31;
+ValeurCmp = 180k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DC9B
+Path = /592E1A2F
+Reference = R32;
+ValeurCmp = 68k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DCA7
+Path = /592E1A20
+Reference = R33;
+ValeurCmp = 18k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DCB3
+Path = /5930CCB0
+Reference = R34;
+ValeurCmp = 4.7k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DCBF
+Path = /5930C8BA
+Reference = R35;
+ValeurCmp = 4.7k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DCCB
+Path = /592E1A05
+Reference = R36;
+ValeurCmp = 56k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DCD7
+Path = /592E19F9
+Reference = R37;
+ValeurCmp = 1.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5930DCE3
+Path = /592E19FF
+Reference = R38;
+ValeurCmp = 1.2k;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 5948282E
+Path = /5931DB20
+Reference = C12;
+ValeurCmp = CP_Small;
+IdModule  = Capacitors_SMD:C_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 59310CC3
+Path = /5928906D
+Reference = U9;
+ValeurCmp = TLC2274;
+IdModule  = GaudiLabsFootPrints:SOIC-14_N;
+EndCmp
+
+BeginCmp
+TimeStamp = 59310CDB
+Path = /5929BD13
+Reference = U13;
+ValeurCmp = TLC2274;
+IdModule  = GaudiLabsFootPrints:SOIC-14_N;
+EndCmp
+
+BeginCmp
+TimeStamp = 592BABFA
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = GaudiLabsLogos:PHR-803T;
+EndCmp
+
+BeginCmp
+TimeStamp = 592F8DAE
+Path = /592BD6A0
+Reference = X5;
+ValeurCmp = PAD;
+IdModule  = GaudiLabsFootPrints:PAD_SMD_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592F8DB3
+Path = /592BDBBA
+Reference = X6;
+ValeurCmp = PAD;
+IdModule  = GaudiLabsFootPrints:PAD_SMD_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592F8DB8
+Path = /592BDC7E
+Reference = X7;
+ValeurCmp = PAD;
+IdModule  = GaudiLabsFootPrints:PAD_SMD_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592E1C79
+Path = /592C0CA6
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 592E1C85
+Path = /592943E8
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = GaudiLabsFootPrints:0805G;
+EndCmp
+
+BeginCmp
+TimeStamp = 593257FB
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2-5mm;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 593EBBA2
+Path = 
+Reference = REF**;
+ValeurCmp = SMD_Array;
+IdModule  = GaudiLabsFootPrints:SMD_Array;
+EndCmp
+
+EndListe
