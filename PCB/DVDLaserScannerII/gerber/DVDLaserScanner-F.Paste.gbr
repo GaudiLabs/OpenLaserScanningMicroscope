@@ -1,28 +1,33 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-ddec803~58~ubuntu14.04.1*
-G04 #@! TF.CreationDate,2017-06-12T14:50:18+02:00*
-G04 #@! TF.ProjectId,DVDLaserScanner,4456444C617365725363616E6E65722E,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2020-10-17T11:56:47+02:00*
+G04 #@! TF.ProjectId,DVDLaserScanner,4456444c-6173-4657-9253-63616e6e6572,rev?*
+G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-ddec803~58~ubuntu14.04.1) date Mon Jun 12 14:50:18 2017*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Sa 17 Okt 2020 11:56:47 CEST*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,0.100000*%
-%ADD11R,1.500000X1.295400*%
-%ADD12R,2.100000X1.400000*%
+%ADD10R,1.500000X1.295400*%
+%ADD11R,2.100000X1.400000*%
 G04 APERTURE END LIST*
 D10*
-D11*
+G04 #@! TO.C,D1*
 X151892000Y-51856600D03*
 X151892000Y-53756600D03*
+G04 #@! TD*
+G04 #@! TO.C,D2*
 X155702000Y-51856600D03*
 X155702000Y-53756600D03*
-D12*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,SW1*
 X163000000Y-89750000D03*
 X163000000Y-94250000D03*
 X153000000Y-89750000D03*
 X153000000Y-94250000D03*
+G04 #@! TD*
 M02*
