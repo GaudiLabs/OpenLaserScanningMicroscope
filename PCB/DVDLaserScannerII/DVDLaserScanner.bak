@@ -1,35 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:DVDLaserScanner-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:GaudiLabsPartsLibrary
+EESchema Schematic File Version 4
 LIBS:DVDLaserScanner-cache
 EELAYER 26 0
 EELAYER END
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ARDUINO_MICRO U3
+L DVDLaserScanner-rescue:ARDUINO_MICRO U3
 U 1 1 586D0248
 P 2350 5450
 F 0 "U3" V 2153 5925 60  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 2750 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MountPad3 X1
+L DVDLaserScanner-rescue:MountPad3 X1
 U 1 1 586D0363
 P 4850 9050
 F 0 "X1" H 4879 9127 60  0000 L CNN
@@ -68,7 +37,7 @@ F 3 "" H 4850 9050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MountPad3 X2
+L DVDLaserScanner-rescue:MountPad3 X2
 U 1 1 586D042B
 P 4850 9250
 F 0 "X2" H 4879 9327 60  0000 L CNN
@@ -79,7 +48,7 @@ F 3 "" H 4850 9250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MountPad3 X3
+L DVDLaserScanner-rescue:MountPad3 X3
 U 1 1 586D04CB
 P 4850 9450
 F 0 "X3" H 4879 9527 60  0000 L CNN
@@ -90,7 +59,7 @@ F 3 "" H 4850 9450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MountPad3 X4
+L DVDLaserScanner-rescue:MountPad3 X4
 U 1 1 586D052B
 P 4850 9700
 F 0 "X4" H 4879 9777 60  0000 L CNN
@@ -101,7 +70,7 @@ F 3 "" H 4850 9700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP4922-E/SL U1
+L DVDLaserScanner-rescue:MCP4922-E_SL U1
 U 1 1 586D0613
 P 1950 1700
 F 0 "U1" H 2591 1746 50  0000 L CNN
@@ -112,7 +81,7 @@ F 3 "" H 1950 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP4922-E/SL U2
+L DVDLaserScanner-rescue:MCP4922-E_SL U2
 U 1 1 586D0723
 P 1950 3650
 F 0 "U2" H 2591 3696 50  0000 L CNN
@@ -123,7 +92,7 @@ F 3 "" H 1950 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV2
+L DVDLaserScanner-rescue:POT RV2
 U 1 1 586D07D7
 P 1900 9400
 F 0 "RV2" H 1830 9446 50  0000 R CNN
@@ -134,7 +103,7 @@ F 3 "" H 1900 9400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L DVDLaserScanner-rescue:POT RV1
 U 1 1 586D0B6B
 P 1300 9400
 F 0 "RV1" H 1230 9446 50  0000 R CNN
@@ -145,7 +114,7 @@ F 3 "" H 1300 9400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV4
+L DVDLaserScanner-rescue:POT RV4
 U 1 1 586D0BAF
 P 3100 9400
 F 0 "RV4" H 3030 9446 50  0000 R CNN
@@ -156,7 +125,7 @@ F 3 "" H 3100 9400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV3
+L DVDLaserScanner-rescue:POT RV3
 U 1 1 586D0C1F
 P 2500 9400
 F 0 "RV3" H 2430 9446 50  0000 R CNN
@@ -167,7 +136,7 @@ F 3 "" H 2500 9400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L DVDLaserScanner-rescue:R R9
 U 1 1 586D3CA8
 P 5450 1500
 F 0 "R9" H 5520 1546 50  0000 L CNN
@@ -178,7 +147,7 @@ F 3 "" H 5450 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L DVDLaserScanner-rescue:R R10
 U 1 1 586D3D68
 P 5450 2000
 F 0 "R10" H 5520 2046 50  0000 L CNN
@@ -189,7 +158,7 @@ F 3 "" H 5450 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR01
+L DVDLaserScanner-rescue:VCC #PWR01
 U 1 1 586D3DEE
 P 5450 900
 F 0 "#PWR01" H 5450 750 50  0001 C CNN
@@ -200,7 +169,7 @@ F 3 "" H 5450 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L DVDLaserScanner-rescue:GND #PWR02
 U 1 1 586D3E41
 P 5450 2750
 F 0 "#PWR02" H 5450 2500 50  0001 C CNN
@@ -211,7 +180,7 @@ F 3 "" H 5450 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L DVDLaserScanner-rescue:R R7
 U 1 1 586D4A4B
 P 4050 1500
 F 0 "R7" V 3843 1500 50  0000 C CNN
@@ -222,7 +191,7 @@ F 3 "" H 4050 1500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L DVDLaserScanner-rescue:R R5
 U 1 1 586D51F4
 P 4000 2600
 F 0 "R5" V 4100 2800 50  0000 C CNN
@@ -233,7 +202,7 @@ F 3 "" H 4000 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L DVDLaserScanner-rescue:R R1
 U 1 1 586D648C
 P 3300 1150
 F 0 "R1" V 3093 1150 50  0000 C CNN
@@ -244,7 +213,7 @@ F 3 "" H 3300 1150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L DVDLaserScanner-rescue:R R2
 U 1 1 586D6521
 P 3300 2200
 F 0 "R2" V 3093 2200 50  0000 C CNN
@@ -259,7 +228,7 @@ VREF1
 Text GLabel 4200 7200 0    60   Input ~ 0
 VREF1
 $Comp
-L R R8
+L DVDLaserScanner-rescue:R R8
 U 1 1 586DC8E0
 P 4050 3850
 F 0 "R8" V 4165 3850 50  0000 C CNN
@@ -270,7 +239,7 @@ F 3 "" H 4050 3850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L DVDLaserScanner-rescue:R R6
 U 1 1 586DC9D6
 P 4000 5000
 F 0 "R6" V 4115 5000 50  0000 C CNN
@@ -281,7 +250,7 @@ F 3 "" H 4000 5000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L DVDLaserScanner-rescue:R R3
 U 1 1 586DCA84
 P 3350 3450
 F 0 "R3" V 3465 3450 50  0000 C CNN
@@ -292,7 +261,7 @@ F 3 "" H 3350 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L DVDLaserScanner-rescue:R R4
 U 1 1 586DCB0C
 P 3350 4550
 F 0 "R4" V 3465 4550 50  0000 C CNN
@@ -303,7 +272,7 @@ F 3 "" H 3350 4550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR03
+L DVDLaserScanner-rescue:VCC #PWR03
 U 1 1 586D5EAA
 P 3950 700
 F 0 "#PWR03" H 3950 550 50  0001 C CNN
@@ -314,7 +283,7 @@ F 3 "" H 3950 700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR04
+L DVDLaserScanner-rescue:VCC #PWR04
 U 1 1 586D6370
 P 3950 3000
 F 0 "#PWR04" H 3950 2850 50  0001 C CNN
@@ -325,7 +294,7 @@ F 3 "" H 3950 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L DVDLaserScanner-rescue:GND #PWR05
 U 1 1 586D662F
 P 3800 1600
 F 0 "#PWR05" H 3800 1350 50  0001 C CNN
@@ -336,7 +305,7 @@ F 3 "" H 3800 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L DVDLaserScanner-rescue:GND #PWR06
 U 1 1 586D6694
 P 3850 3950
 F 0 "#PWR06" H 3850 3700 50  0001 C CNN
@@ -373,7 +342,7 @@ DAC_SCK
 Text GLabel 1150 1800 0    60   Input ~ 0
 DAC_LATCH
 $Comp
-L VCC #PWR07
+L DVDLaserScanner-rescue:VCC #PWR07
 U 1 1 586DF9B1
 P 1000 4100
 F 0 "#PWR07" H 1000 3950 50  0001 C CNN
@@ -384,7 +353,7 @@ F 3 "" H 1000 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR08
+L DVDLaserScanner-rescue:VCC #PWR08
 U 1 1 586DFA13
 P 900 2150
 F 0 "#PWR08" H 900 2000 50  0001 C CNN
@@ -395,7 +364,7 @@ F 3 "" H 900 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR09
+L DVDLaserScanner-rescue:VCC #PWR09
 U 1 1 586E04F0
 P 1850 3000
 F 0 "#PWR09" H 1850 2850 50  0001 C CNN
@@ -406,7 +375,7 @@ F 3 "" H 1850 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR010
+L DVDLaserScanner-rescue:VCC #PWR010
 U 1 1 586E0552
 P 1850 1050
 F 0 "#PWR010" H 1850 900 50  0001 C CNN
@@ -417,7 +386,7 @@ F 3 "" H 1850 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L DVDLaserScanner-rescue:GND #PWR011
 U 1 1 586E097D
 P 1850 2300
 F 0 "#PWR011" H 1850 2050 50  0001 C CNN
@@ -428,7 +397,7 @@ F 3 "" H 1850 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L DVDLaserScanner-rescue:GND #PWR012
 U 1 1 586E0A69
 P 1850 4300
 F 0 "#PWR012" H 1850 4050 50  0001 C CNN
@@ -439,7 +408,7 @@ F 3 "" H 1850 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L DVDLaserScanner-rescue:R R11
 U 1 1 586E1132
 P 2600 2600
 F 0 "R11" V 2393 2600 50  0000 C CNN
@@ -450,7 +419,7 @@ F 3 "" H 2600 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C3
+L DVDLaserScanner-rescue:C_Small C3
 U 1 1 586E12B4
 P 2400 2850
 F 0 "C3" H 2492 2896 50  0000 L CNN
@@ -461,7 +430,7 @@ F 3 "" H 2400 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L DVDLaserScanner-rescue:GND #PWR013
 U 1 1 586E1742
 P 2400 3050
 F 0 "#PWR013" H 2400 2800 50  0001 C CNN
@@ -478,7 +447,7 @@ VREF_DAC
 Text GLabel 2100 950  2    60   Input ~ 0
 VREF_DAC
 $Comp
-L VCC #PWR014
+L DVDLaserScanner-rescue:VCC #PWR014
 U 1 1 586E22E5
 P 2900 2500
 F 0 "#PWR014" H 2900 2350 50  0001 C CNN
@@ -505,7 +474,7 @@ PD_C
 Text GLabel 4850 8350 0    60   Input ~ 0
 PD_D
 $Comp
-L GND #PWR015
+L DVDLaserScanner-rescue:GND #PWR015
 U 1 1 586E480C
 P 4100 8300
 F 0 "#PWR015" H 4100 8050 50  0001 C CNN
@@ -516,7 +485,7 @@ F 3 "" H 4100 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR016
+L DVDLaserScanner-rescue:VCC #PWR016
 U 1 1 586E4DC3
 P 3500 8550
 F 0 "#PWR016" H 3500 8400 50  0001 C CNN
@@ -535,7 +504,7 @@ PD_C
 Text GLabel 5000 6300 2    60   Input ~ 0
 PD_D
 $Comp
-L VCC #PWR017
+L DVDLaserScanner-rescue:VCC #PWR017
 U 1 1 586E9910
 P 1300 9000
 F 0 "#PWR017" H 1300 8850 50  0001 C CNN
@@ -546,7 +515,7 @@ F 3 "" H 1300 9000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L DVDLaserScanner-rescue:GND #PWR018
 U 1 1 586E997B
 P 1300 9800
 F 0 "#PWR018" H 1300 9550 50  0001 C CNN
@@ -573,7 +542,7 @@ POT3
 Text GLabel 1900 7100 0    60   Input ~ 0
 POT4
 $Comp
-L GND #PWR019
+L DVDLaserScanner-rescue:GND #PWR019
 U 1 1 586ECF38
 P 1150 6000
 F 0 "#PWR019" H 1150 5750 50  0001 C CNN
@@ -584,7 +553,7 @@ F 3 "" H 1150 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR020
+L DVDLaserScanner-rescue:VCC #PWR020
 U 1 1 586ED2F5
 P 3950 6000
 F 0 "#PWR020" H 3950 5850 50  0001 C CNN
@@ -603,7 +572,7 @@ PD_E
 Text GLabel 5000 6100 2    60   Input ~ 0
 PD_F
 $Comp
-L R R12
+L DVDLaserScanner-rescue:R R12
 U 1 1 586F0FAE
 P 13150 7500
 F 0 "R12" V 13265 7500 50  0000 C CNN
@@ -614,7 +583,7 @@ F 3 "" H 13150 7500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L DVDLaserScanner-rescue:R R13
 U 1 1 586F2910
 P 13150 8000
 F 0 "R13" V 13265 8000 50  0000 C CNN
@@ -625,7 +594,7 @@ F 3 "" H 13150 8000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR021
+L DVDLaserScanner-rescue:VCC #PWR021
 U 1 1 586F2BE1
 P 13150 7200
 F 0 "#PWR021" H 13150 7050 50  0001 C CNN
@@ -636,7 +605,7 @@ F 3 "" H 13150 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L DVDLaserScanner-rescue:GND #PWR022
 U 1 1 586F2F1C
 P 13150 8250
 F 0 "#PWR022" H 13150 8000 50  0001 C CNN
@@ -655,7 +624,7 @@ Focus: +1.1 mm / -0.7 mm\n0.80 mm/V (positiv = aproach disk)\n\nTracking: ±0.4 
 Text Notes 6200 200  0    60   ~ 0
 1.375V / -0.875V   1/1.8181\n ±0.67 V  / 1/3.7313
 $Comp
-L MCP6002 U7
+L DVDLaserScanner-rescue:MCP6002 U7
 U 1 1 586E7DE9
 P 9550 8500
 F 0 "U7" H 9600 8850 50  0000 L CNN
@@ -666,7 +635,7 @@ F 3 "" H 9550 8650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q1
+L DVDLaserScanner-rescue:Q_NMOS_GDS Q1
 U 1 1 586E8943
 P 10550 8500
 F 0 "Q1" H 10755 8546 50  0000 L CNN
@@ -677,7 +646,7 @@ F 3 "" H 10550 8500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L DVDLaserScanner-rescue:R R20
 U 1 1 586E9462
 P 10650 9050
 F 0 "R20" V 10765 9050 50  0000 C CNN
@@ -688,7 +657,7 @@ F 3 "" H 10650 9050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR023
+L DVDLaserScanner-rescue:GND #PWR023
 U 1 1 586E9604
 P 10650 9250
 F 0 "#PWR023" H 10650 9000 50  0001 C CNN
@@ -699,7 +668,7 @@ F 3 "" H 10650 9250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L DVDLaserScanner-rescue:R R15
 U 1 1 586E9762
 P 8900 8450
 F 0 "R15" V 9015 8450 50  0000 C CNN
@@ -712,7 +681,7 @@ $EndComp
 Text GLabel 10600 8000 0    60   Input ~ 0
 I_LASER
 $Comp
-L R R16
+L DVDLaserScanner-rescue:R R16
 U 1 1 586EBBFF
 P 8900 8850
 F 0 "R16" V 9015 8850 50  0000 C CNN
@@ -723,7 +692,7 @@ F 3 "" H 8900 8850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L DVDLaserScanner-rescue:GND #PWR024
 U 1 1 586EBF9A
 P 8900 9250
 F 0 "#PWR024" H 8900 9000 50  0001 C CNN
@@ -734,7 +703,7 @@ F 3 "" H 8900 9250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L DVDLaserScanner-rescue:R R18
 U 1 1 586EC775
 P 10150 8850
 F 0 "R18" V 10265 8850 50  0000 C CNN
@@ -745,7 +714,7 @@ F 3 "" H 10150 8850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L DVDLaserScanner-rescue:R R17
 U 1 1 586ECFD5
 P 10150 8500
 F 0 "R17" V 9950 8500 50  0000 C CNN
@@ -756,7 +725,7 @@ F 3 "" H 10150 8500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C4
+L DVDLaserScanner-rescue:C_Small C4
 U 1 1 586ED828
 P 9950 8700
 F 0 "C4" H 9700 8750 50  0000 L CNN
@@ -767,7 +736,7 @@ F 3 "" H 9950 8700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L DVDLaserScanner-rescue:GND #PWR025
 U 1 1 586F2608
 P 9450 9250
 F 0 "#PWR025" H 9450 9000 50  0001 C CNN
@@ -778,7 +747,7 @@ F 3 "" H 9450 9250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR026
+L DVDLaserScanner-rescue:VCC #PWR026
 U 1 1 586F2984
 P 9450 8100
 F 0 "#PWR026" H 9450 7950 50  0001 C CNN
@@ -789,7 +758,7 @@ F 3 "" H 9450 8100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR027
+L DVDLaserScanner-rescue:VCC #PWR027
 U 1 1 586F5007
 P 6300 900
 F 0 "#PWR027" H 6300 750 50  0001 C CNN
@@ -800,7 +769,7 @@ F 3 "" H 6300 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L DVDLaserScanner-rescue:GND #PWR028
 U 1 1 586F53DA
 P 6300 2750
 F 0 "#PWR028" H 6300 2500 50  0001 C CNN
@@ -811,7 +780,7 @@ F 3 "" H 6300 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP1
+L DVDLaserScanner-rescue:Jumper_NC_Dual JP1
 U 1 1 586FB3E6
 P 10000 2600
 F 0 "JP1" V 10046 2702 50  0000 L CNN
@@ -822,7 +791,7 @@ F 3 "" H 10000 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D2
+L DVDLaserScanner-rescue:LED D2
 U 1 1 586FB4AC
 P 3650 9400
 F 0 "D2" V 3688 9283 50  0000 R CNN
@@ -833,7 +802,7 @@ F 3 "" H 3650 9400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R19
+L DVDLaserScanner-rescue:R R19
 U 1 1 586FF60A
 P 3650 9000
 F 0 "R19" V 3765 9000 50  0000 C CNN
@@ -844,7 +813,7 @@ F 3 "" H 3650 9000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L DVDLaserScanner-rescue:LED D1
 U 1 1 58703A37
 P 1200 7150
 F 0 "D1" V 1238 7033 50  0000 R CNN
@@ -855,7 +824,7 @@ F 3 "" H 1200 7150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R14
+L DVDLaserScanner-rescue:R R14
 U 1 1 58703EAD
 P 1200 6800
 F 0 "R14" V 1315 6800 50  0000 C CNN
@@ -866,7 +835,7 @@ F 3 "" H 1200 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L DVDLaserScanner-rescue:GND #PWR029
 U 1 1 58704DD7
 P 1200 7450
 F 0 "#PWR029" H 1200 7200 50  0001 C CNN
@@ -877,7 +846,7 @@ F 3 "" H 1200 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L DVDLaserScanner-rescue:GND #PWR030
 U 1 1 58705B46
 P 4300 5800
 F 0 "#PWR030" H 4300 5550 50  0001 C CNN
@@ -888,7 +857,7 @@ F 3 "" H 4300 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP4922-E/SL U8
+L DVDLaserScanner-rescue:MCP4922-E_SL U8
 U 1 1 5872A06D
 P 7400 8400
 F 0 "U8" H 8041 8446 50  0000 L CNN
@@ -907,7 +876,7 @@ DAC_DI
 Text GLabel 6600 8300 0    60   Input ~ 0
 DAC_SCK
 $Comp
-L VCC #PWR031
+L DVDLaserScanner-rescue:VCC #PWR031
 U 1 1 5872A083
 P 6450 8850
 F 0 "#PWR031" H 6450 8700 50  0001 C CNN
@@ -918,7 +887,7 @@ F 3 "" H 6450 8850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR032
+L DVDLaserScanner-rescue:VCC #PWR032
 U 1 1 5872A089
 P 7300 7750
 F 0 "#PWR032" H 7300 7600 50  0001 C CNN
@@ -929,7 +898,7 @@ F 3 "" H 7300 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L DVDLaserScanner-rescue:GND #PWR033
 U 1 1 5872A08F
 P 7300 9050
 F 0 "#PWR033" H 7300 8800 50  0001 C CNN
@@ -950,7 +919,7 @@ PD_RF
 Text GLabel 4200 7650 0    60   Input ~ 0
 I_LASER
 $Comp
-L VCC #PWR034
+L DVDLaserScanner-rescue:VCC #PWR034
 U 1 1 58732BDF
 P 3750 8550
 F 0 "#PWR034" H 3750 8400 50  0001 C CNN
@@ -961,7 +930,7 @@ F 3 "" H 3750 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Con45 U11
+L DVDLaserScanner-rescue:Con45 U11
 U 1 1 5872ED75
 P 14350 3150
 F 0 "U11" H 14678 3183 60  0000 L CNN
@@ -976,7 +945,7 @@ F2+
 Text GLabel 4800 4700 2    60   Input ~ 0
 T2+
 $Comp
-L GND #PWR035
+L DVDLaserScanner-rescue:GND #PWR035
 U 1 1 5873B391
 P 12950 1550
 F 0 "#PWR035" H 12950 1300 50  0001 C CNN
@@ -987,7 +956,7 @@ F 3 "" H 12950 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L DVDLaserScanner-rescue:GND #PWR036
 U 1 1 5873CDB1
 P 13200 2650
 F 0 "#PWR036" H 13200 2400 50  0001 C CNN
@@ -998,7 +967,7 @@ F 3 "" H 13200 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L DVDLaserScanner-rescue:GND #PWR037
 U 1 1 5873E675
 P 13100 4250
 F 0 "#PWR037" H 13100 4000 50  0001 C CNN
@@ -1009,7 +978,7 @@ F 3 "" H 13100 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR038
+L DVDLaserScanner-rescue:VCC #PWR038
 U 1 1 5873EC45
 P 13000 4750
 F 0 "#PWR038" H 13000 4600 50  0001 C CNN
@@ -1020,7 +989,7 @@ F 3 "" H 13000 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L DVDLaserScanner-rescue:GND #PWR039
 U 1 1 5873EE84
 P 13300 5400
 F 0 "#PWR039" H 13300 5150 50  0001 C CNN
@@ -1031,7 +1000,7 @@ F 3 "" H 13300 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCA0372_DWG U4
+L DVDLaserScanner-rescue:TCA0372_DWG U4
 U 1 1 5873BA74
 P 4050 1050
 F 0 "U4" H 4250 1300 50  0000 L CNN
@@ -1042,7 +1011,7 @@ F 3 "" H 4050 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCA0372_DWG U4
+L DVDLaserScanner-rescue:TCA0372_DWG U4
 U 2 1 5873DA8D
 P 4050 2100
 F 0 "U4" H 4350 2350 50  0000 L CNN
@@ -1053,7 +1022,7 @@ F 3 "" H 4050 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCA0372_DWG U5
+L DVDLaserScanner-rescue:TCA0372_DWG U5
 U 1 1 5873DDA4
 P 4050 3350
 F 0 "U5" H 4250 3600 50  0000 L CNN
@@ -1064,7 +1033,7 @@ F 3 "" H 4050 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCA0372_DWG U5
+L DVDLaserScanner-rescue:TCA0372_DWG U5
 U 2 1 5873DF3F
 P 4050 4450
 F 0 "U5" H 4391 4496 50  0000 L CNN
@@ -1075,7 +1044,7 @@ F 3 "" H 4050 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCA0372_DWG U6
+L DVDLaserScanner-rescue:TCA0372_DWG U6
 U 1 1 5873E7A3
 P 6400 1250
 F 0 "U6" H 6650 1550 50  0000 L CNN
@@ -1086,7 +1055,7 @@ F 3 "" H 6400 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TCA0372_DWG U6
+L DVDLaserScanner-rescue:TCA0372_DWG U6
 U 2 1 5873EAB1
 P 6400 2200
 F 0 "U6" H 6650 2500 50  0000 L CNN
@@ -1097,7 +1066,7 @@ F 3 "" H 6400 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Con45 U10
+L DVDLaserScanner-rescue:Con45 U10
 U 1 1 5872EA38
 P 13950 3150
 F 0 "U10" H 13450 3400 60  0000 L CNN
@@ -1110,7 +1079,7 @@ $EndComp
 Text GLabel 5000 5900 2    60   Input ~ 0
 PD_RF
 $Comp
-L BUT SW1
+L DVDLaserScanner-rescue:BUT SW1
 U 1 1 5873F553
 P 2550 7850
 F 0 "SW1" H 2550 8287 60  0000 C CNN
@@ -1121,7 +1090,7 @@ F 3 "" H 2550 7850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L DVDLaserScanner-rescue:GND #PWR040
 U 1 1 5874048E
 P 2900 7900
 F 0 "#PWR040" H 2900 7650 50  0001 C CNN
@@ -1156,7 +1125,7 @@ VREF_LD?
 Text GLabel 13750 2050 0    60   Input ~ 0
 ?
 $Comp
-L VCC #PWR041
+L DVDLaserScanner-rescue:VCC #PWR041
 U 1 1 58E2D7A9
 P 12950 2000
 F 0 "#PWR041" H 12950 1850 50  0001 C CNN
@@ -1183,7 +1152,7 @@ Text GLabel 13600 3950 0    60   Input ~ 0
 Text GLabel 13750 3450 0    60   Input ~ 0
 VREF
 $Comp
-L GND #PWR042
+L DVDLaserScanner-rescue:GND #PWR042
 U 1 1 58E30400
 P 13100 3550
 F 0 "#PWR042" H 13100 3300 50  0001 C CNN
@@ -1218,7 +1187,7 @@ I VCC_BLUE = 55mA\nI VCC_REDS (RED) = 60mA\nI VCC_REDS (IR) = 160mA\n
 Text Notes 3200 1900 0    60   ~ 0
 180k
 $Comp
-L Con45 U12
+L DVDLaserScanner-rescue:Con45 U12
 U 1 1 5928E471
 P 15450 3150
 F 0 "U12" H 15500 5600 60  0000 L CNN
@@ -1229,7 +1198,7 @@ F 3 "" H 15500 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L DVDLaserScanner-rescue:C_Small C7
 U 1 1 592943E8
 P 4150 9400
 F 0 "C7" H 3900 9450 50  0000 L CNN
@@ -1272,7 +1241,7 @@ VCC_BLUE
 Text GLabel 12100 3200 0    60   Input ~ 0
 VCC_REDS
 $Comp
-L VCC #PWR043
+L DVDLaserScanner-rescue:VCC #PWR043
 U 1 1 592BD844
 P 12200 2950
 F 0 "#PWR043" H 12200 2800 50  0001 C CNN
@@ -1283,7 +1252,7 @@ F 3 "" H 12200 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L DVDLaserScanner-rescue:R R27
 U 1 1 592C6BAB
 P 10450 3650
 F 0 "R27" V 10250 3600 50  0000 L CNN
@@ -1294,7 +1263,7 @@ F 3 "" H 10450 3650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R28
+L DVDLaserScanner-rescue:R R28
 U 1 1 592C6D56
 P 10450 3950
 F 0 "R28" V 10250 3900 50  0000 L CNN
@@ -1305,7 +1274,7 @@ F 3 "" H 10450 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R26
+L DVDLaserScanner-rescue:R R26
 U 1 1 592C704F
 P 10000 3800
 F 0 "R26" V 9800 3750 50  0000 L CNN
@@ -1324,7 +1293,7 @@ B_SIG
 Text GLabel 10800 3950 2    60   Input ~ 0
 D_SIG
 $Comp
-L C_Small C5
+L DVDLaserScanner-rescue:C_Small C5
 U 1 1 592C97D0
 P 9700 4200
 F 0 "C5" H 9750 4300 50  0000 L CNN
@@ -1335,7 +1304,7 @@ F 3 "" H 9700 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L DVDLaserScanner-rescue:R R25
 U 1 1 592CBAE8
 P 9150 3800
 F 0 "R25" V 8950 3700 50  0000 L CNN
@@ -1348,7 +1317,7 @@ $EndComp
 Text GLabel 9800 4800 2    60   Input ~ 0
 VREF
 $Comp
-L R R24
+L DVDLaserScanner-rescue:R R24
 U 1 1 592CEB11
 P 8300 3800
 F 0 "R24" V 8100 3700 50  0000 L CNN
@@ -1359,7 +1328,7 @@ F 3 "" H 8300 3800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R23
+L DVDLaserScanner-rescue:R R23
 U 1 1 592CF14D
 P 7750 3800
 F 0 "R23" V 7600 3550 50  0000 L CNN
@@ -1370,7 +1339,7 @@ F 3 "" H 7750 3800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C2
+L DVDLaserScanner-rescue:C_Small C2
 U 1 1 592CF2D4
 P 7750 3550
 F 0 "C2" V 7500 3500 50  0000 L CNN
@@ -1381,7 +1350,7 @@ F 3 "" H 7750 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R21
+L DVDLaserScanner-rescue:R R21
 U 1 1 592CFA83
 P 6500 5600
 F 0 "R21" H 6250 5500 50  0000 L CNN
@@ -1392,7 +1361,7 @@ F 3 "" H 6500 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1
+L DVDLaserScanner-rescue:C_Small C1
 U 1 1 592CFB8E
 P 6300 5600
 F 0 "C1" H 6400 5500 50  0000 L CNN
@@ -1403,7 +1372,7 @@ F 3 "" H 6300 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R22
+L DVDLaserScanner-rescue:R R22
 U 1 1 592D7283
 P 6700 4900
 F 0 "R22" V 6500 4800 50  0000 L CNN
@@ -1414,7 +1383,7 @@ F 3 "" H 6700 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R37
+L DVDLaserScanner-rescue:R R37
 U 1 1 592E19F9
 P 10450 5150
 F 0 "R37" V 10250 5100 50  0000 L CNN
@@ -1425,7 +1394,7 @@ F 3 "" H 10450 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R38
+L DVDLaserScanner-rescue:R R38
 U 1 1 592E19FF
 P 10450 5450
 F 0 "R38" V 10250 5400 50  0000 L CNN
@@ -1436,7 +1405,7 @@ F 3 "" H 10450 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R36
+L DVDLaserScanner-rescue:R R36
 U 1 1 592E1A05
 P 10000 5300
 F 0 "R36" V 9800 5250 50  0000 L CNN
@@ -1447,7 +1416,7 @@ F 3 "" H 10000 5300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C10
+L DVDLaserScanner-rescue:C_Small C10
 U 1 1 592E1A14
 P 9700 5700
 F 0 "C10" H 9750 5800 50  0000 L CNN
@@ -1458,7 +1427,7 @@ F 3 "" H 9700 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R33
+L DVDLaserScanner-rescue:R R33
 U 1 1 592E1A20
 P 9150 5300
 F 0 "R33" V 8950 5200 50  0000 L CNN
@@ -1471,7 +1440,7 @@ $EndComp
 Text GLabel 9800 6300 2    60   Input ~ 0
 VREF
 $Comp
-L R R32
+L DVDLaserScanner-rescue:R R32
 U 1 1 592E1A2F
 P 8300 5300
 F 0 "R32" V 8100 5200 50  0000 L CNN
@@ -1482,7 +1451,7 @@ F 3 "" H 8300 5300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R31
+L DVDLaserScanner-rescue:R R31
 U 1 1 592E1A3B
 P 7750 5300
 F 0 "R31" V 7650 5100 50  0000 L CNN
@@ -1493,7 +1462,7 @@ F 3 "" H 7750 5300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C9
+L DVDLaserScanner-rescue:C_Small C9
 U 1 1 592E1A41
 P 7750 5050
 F 0 "C9" V 7500 5000 50  0000 L CNN
@@ -1504,7 +1473,7 @@ F 3 "" H 7750 5050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R30
+L DVDLaserScanner-rescue:R R30
 U 1 1 592E1A51
 P 6700 5100
 F 0 "R30" V 6850 5000 50  0000 L CNN
@@ -1515,7 +1484,7 @@ F 3 "" H 6700 5100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R29
+L DVDLaserScanner-rescue:R R29
 U 1 1 592EC09A
 P 6000 4400
 F 0 "R29" V 6100 4500 50  0000 L CNN
@@ -1526,7 +1495,7 @@ F 3 "" H 6000 4400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C8
+L DVDLaserScanner-rescue:C_Small C8
 U 1 1 592EC1C6
 P 6000 4200
 F 0 "C8" V 6150 4300 50  0000 L CNN
@@ -1537,7 +1506,7 @@ F 3 "" H 6000 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R35
+L DVDLaserScanner-rescue:R R35
 U 1 1 5930C8BA
 P 9800 2200
 F 0 "R35" V 9915 2200 50  0000 C CNN
@@ -1548,7 +1517,7 @@ F 3 "" H 9800 2200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R34
+L DVDLaserScanner-rescue:R R34
 U 1 1 5930CCB0
 P 9200 1800
 F 0 "R34" V 9315 1800 50  0000 C CNN
@@ -1559,7 +1528,7 @@ F 3 "" H 9200 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP_Small C12
+L DVDLaserScanner-rescue:CP_Small C12
 U 1 1 5931DB20
 P 14600 8450
 F 0 "C12" H 14688 8496 50  0000 L CNN
@@ -1570,7 +1539,7 @@ F 3 "" H 14600 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L DVDLaserScanner-rescue:GND #PWR044
 U 1 1 5931DC24
 P 14600 8800
 F 0 "#PWR044" H 14600 8550 50  0001 C CNN
@@ -1607,51 +1576,51 @@ OFFSET
 Text GLabel 10150 2200 2    60   Input ~ 0
 OFFSET
 $Comp
-L GND #PWR045
+L DVDLaserScanner-rescue:GND #PWR045
 U 1 1 59357683
-P 7450 6100
-F 0 "#PWR045" H 7450 5850 50  0001 C CNN
-F 1 "GND" H 7455 5927 50  0000 C CNN
-F 2 "" H 7450 6100 50  0000 C CNN
-F 3 "" H 7450 6100 50  0000 C CNN
-	1    7450 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR046
-U 1 1 59357738
 P 7450 5600
-F 0 "#PWR046" H 7450 5450 50  0001 C CNN
-F 1 "VCC" H 7467 5773 50  0000 C CNN
+F 0 "#PWR045" H 7450 5350 50  0001 C CNN
+F 1 "GND" H 7455 5427 50  0000 C CNN
 F 2 "" H 7450 5600 50  0000 C CNN
 F 3 "" H 7450 5600 50  0000 C CNN
 	1    7450 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR047
-U 1 1 59359BA8
-P 5800 4700
-F 0 "#PWR047" H 5800 4550 50  0001 C CNN
-F 1 "VCC" H 5750 4850 50  0000 C CNN
-F 2 "" H 5800 4700 50  0000 C CNN
-F 3 "" H 5800 4700 50  0000 C CNN
-	1    5800 4700
+L DVDLaserScanner-rescue:VCC #PWR046
+U 1 1 59357738
+P 7450 6100
+F 0 "#PWR046" H 7450 5950 50  0001 C CNN
+F 1 "VCC" H 7467 6273 50  0000 C CNN
+F 2 "" H 7450 6100 50  0000 C CNN
+F 3 "" H 7450 6100 50  0000 C CNN
+	1    7450 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
-U 1 1 59359C5D
+L DVDLaserScanner-rescue:VCC #PWR047
+U 1 1 59359BA8
 P 5800 5300
-F 0 "#PWR048" H 5800 5050 50  0001 C CNN
-F 1 "GND" H 5805 5127 50  0000 C CNN
+F 0 "#PWR047" H 5800 5150 50  0001 C CNN
+F 1 "VCC" H 5750 5450 50  0000 C CNN
 F 2 "" H 5800 5300 50  0000 C CNN
 F 3 "" H 5800 5300 50  0000 C CNN
 	1    5800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLC2274 U9
+L DVDLaserScanner-rescue:GND #PWR048
+U 1 1 59359C5D
+P 5800 4700
+F 0 "#PWR048" H 5800 4450 50  0001 C CNN
+F 1 "GND" H 5805 4527 50  0000 C CNN
+F 2 "" H 5800 4700 50  0000 C CNN
+F 3 "" H 5800 4700 50  0000 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DVDLaserScanner-rescue:TLC2274 U9
 U 3 1 5928906D
 P 9200 4350
 F 0 "U9" H 9300 3985 50  0000 C CNN
@@ -1662,7 +1631,7 @@ F 3 "" H 9250 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TLC2274 U9
+L DVDLaserScanner-rescue:TLC2274 U9
 U 4 1 5928B1C7
 P 7800 4350
 F 0 "U9" H 7900 3963 60  0000 C CNN
@@ -1673,7 +1642,7 @@ F 3 "" H 7800 4350 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TLC2274 U9
+L DVDLaserScanner-rescue:TLC2274 U9
 U 2 1 5928B337
 P 9200 5850
 F 0 "U9" H 9300 5463 60  0000 C CNN
@@ -1684,7 +1653,7 @@ F 3 "" H 9200 5850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TLC2274 U9
+L DVDLaserScanner-rescue:TLC2274 U9
 U 1 1 5928B490
 P 7800 5850
 F 0 "U9" H 7900 5400 60  0000 C CNN
@@ -1695,7 +1664,7 @@ F 3 "" H 7800 5850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TLC2274 U13
+L DVDLaserScanner-rescue:TLC2274 U13
 U 1 1 5929BD13
 P 6050 5000
 F 0 "U13" H 6050 4600 60  0000 C CNN
@@ -1706,7 +1675,7 @@ F 3 "" H 6050 5000 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TLC2274 U13
+L DVDLaserScanner-rescue:TLC2274 U13
 U 2 1 5929BE57
 P 9250 2300
 F 0 "U13" H 9350 1911 60  0000 C CNN
@@ -1717,7 +1686,7 @@ F 3 "" H 9250 2300 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TLC2274 U13
+L DVDLaserScanner-rescue:TLC2274 U13
 U 4 1 5929BFA8
 P 13750 8200
 F 0 "U13" H 13850 8589 60  0000 C CNN
@@ -1728,7 +1697,7 @@ F 3 "" H 13750 8200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLC2274 U13
+L DVDLaserScanner-rescue:TLC2274 U13
 U 3 1 5929C0E2
 P 12400 6050
 F 0 "U13" H 12500 6439 60  0000 C CNN
@@ -1757,7 +1726,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 950  3750 950 
 Wire Wire Line
-	3700 750  3700 2000
+	3700 750  3700 950 
 Wire Wire Line
 	3700 2000 3750 2000
 Wire Wire Line
@@ -1780,17 +1749,17 @@ Wire Wire Line
 Wire Wire Line
 	4450 5000 4150 5000
 Wire Wire Line
-	4450 4450 4450 5000
+	4450 4450 4450 4700
 Wire Wire Line
 	4350 4450 4450 4450
 Wire Wire Line
 	4450 3850 4200 3850
 Wire Wire Line
-	4450 3350 4450 3850
+	4450 3350 4450 3600
 Wire Wire Line
 	4350 3350 4450 3350
 Wire Wire Line
-	4450 2100 4450 2600
+	4450 2100 4450 2350
 Wire Wire Line
 	4350 2100 4450 2100
 Connection ~ 3600 4550
@@ -1799,9 +1768,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 4550 3600 5000
 Wire Wire Line
-	3500 4550 3750 4550
+	3500 4550 3600 4550
 Wire Wire Line
-	3500 3450 3750 3450
+	3500 3450 3600 3450
 Connection ~ 4450 1250
 Wire Wire Line
 	5800 2100 6100 2100
@@ -1815,12 +1784,12 @@ Wire Wire Line
 Wire Wire Line
 	6800 2200 6800 2650
 Wire Wire Line
-	6700 2200 7400 2200
+	6700 2200 6800 2200
 Connection ~ 6800 1250
 Wire Wire Line
 	6800 1700 6800 1250
 Wire Wire Line
-	6700 1250 7350 1250
+	6700 1250 6800 1250
 Wire Wire Line
 	6000 1700 6800 1700
 Wire Wire Line
@@ -1837,7 +1806,7 @@ Connection ~ 3600 1150
 Wire Wire Line
 	4450 1050 4350 1050
 Wire Wire Line
-	4450 1050 4450 1500
+	4450 1050 4450 1250
 Wire Wire Line
 	4450 1500 4200 1500
 Wire Wire Line
@@ -1845,19 +1814,19 @@ Wire Wire Line
 Wire Wire Line
 	3600 1150 3600 1500
 Wire Wire Line
-	3450 1150 3750 1150
+	3450 1150 3600 1150
 Wire Wire Line
 	3600 2600 3850 2600
 Wire Wire Line
 	3600 2200 3600 2600
 Wire Wire Line
-	3450 2200 3750 2200
+	3450 2200 3600 2200
 Wire Wire Line
 	4450 2600 4150 2600
 Wire Wire Line
 	5450 2150 5450 2750
 Wire Wire Line
-	5450 1650 5450 1850
+	5450 1650 5450 1750
 Wire Wire Line
 	5450 900  5450 1350
 Wire Wire Line
@@ -1897,13 +1866,13 @@ Wire Wire Line
 Wire Wire Line
 	1850 4150 1850 4300
 Wire Wire Line
-	2150 2600 2450 2600
+	2150 2600 2250 2600
 Wire Wire Line
 	2400 2600 2400 2750
 Wire Wire Line
 	2400 2950 2400 3050
 Wire Wire Line
-	2250 2450 2250 2800
+	2250 2450 2250 2600
 Connection ~ 2400 2600
 Wire Wire Line
 	2050 3150 2050 2800
@@ -1933,7 +1902,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3050 3700 3050
 Wire Wire Line
-	3700 3050 3700 4350
+	3700 3050 3700 3250
 Wire Wire Line
 	3700 4350 3750 4350
 Wire Wire Line
@@ -1956,9 +1925,9 @@ Wire Wire Line
 Wire Wire Line
 	3500 6500 3700 6500
 Wire Wire Line
-	1300 9550 1300 9800
+	1300 9550 1300 9650
 Wire Wire Line
-	1300 9650 4350 9650
+	1300 9650 1900 9650
 Wire Wire Line
 	3100 9650 3100 9550
 Connection ~ 1300 9650
@@ -1969,11 +1938,11 @@ Wire Wire Line
 	1900 9550 1900 9650
 Connection ~ 1900 9650
 Wire Wire Line
-	1300 9000 1300 9250
+	1300 9000 1300 9150
 Wire Wire Line
-	1300 9150 3100 9150
+	1300 9150 1900 9150
 Wire Wire Line
-	3100 8850 3100 9250
+	3100 8850 3100 9150
 Connection ~ 1300 9150
 Wire Wire Line
 	2500 9250 2500 9150
@@ -2008,15 +1977,15 @@ Wire Wire Line
 Wire Wire Line
 	13150 7200 13150 7350
 Wire Wire Line
-	13150 7650 13150 7850
+	13150 7650 13150 7750
 Wire Wire Line
 	13150 8150 13150 8250
 Connection ~ 13150 7750
 Wire Wire Line
-	10650 8700 10650 8900
+	10650 8700 10650 8850
 Connection ~ 10650 8850
 Wire Wire Line
-	9250 8850 10000 8850
+	9250 8850 9950 8850
 Wire Wire Line
 	9250 8850 9250 8600
 Wire Wire Line
@@ -2026,16 +1995,16 @@ Wire Wire Line
 Wire Wire Line
 	8900 8650 9150 8650
 Wire Wire Line
-	8900 8600 8900 8700
+	8900 8600 8900 8650
 Connection ~ 8900 8650
 Wire Wire Line
-	8900 7400 8900 8300
+	8900 7400 8900 8200
 Wire Wire Line
 	8000 8200 8900 8200
 Wire Wire Line
 	10650 8850 10300 8850
 Wire Wire Line
-	9850 8500 10000 8500
+	9850 8500 9950 8500
 Wire Wire Line
 	10300 8500 10350 8500
 Wire Wire Line
@@ -2049,7 +2018,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 8100 9450 8200
 Wire Wire Line
-	5800 1150 5800 2100
+	5800 1150 5800 1750
 Wire Wire Line
 	5800 1150 6100 1150
 Wire Wire Line
@@ -2073,7 +2042,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 9250 3650 9150
 Wire Wire Line
-	3100 8850 4350 8850
+	3100 8850 3650 8850
 Connection ~ 3100 9150
 Wire Wire Line
 	1200 6950 1200 7000
@@ -2116,7 +2085,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 7400 7700 7550
 Wire Wire Line
-	14150 8200 14800 8200
+	14150 8200 14250 8200
 Wire Wire Line
 	13150 7750 13550 7750
 Wire Wire Line
@@ -2139,45 +2108,45 @@ Wire Wire Line
 Wire Wire Line
 	14250 1350 13850 1350
 Wire Wire Line
-	13300 1450 14250 1450
+	13300 1450 13850 1450
 Wire Wire Line
-	12950 1550 14250 1550
+	12950 1550 13850 1550
 Wire Wire Line
 	13850 1650 14250 1650
 Wire Wire Line
-	13000 5050 14250 5050
+	13000 5050 13850 5050
 Wire Wire Line
-	13750 5150 14250 5150
+	13750 5150 13850 5150
 Wire Wire Line
-	13750 5250 14250 5250
+	13750 5250 13850 5250
 Wire Wire Line
-	13300 5350 14250 5350
+	13300 5350 13850 5350
 Wire Wire Line
-	13750 1750 14250 1750
+	13750 1750 13850 1750
 Wire Wire Line
-	13750 1850 14250 1850
+	13750 1850 13850 1850
 Wire Wire Line
 	13850 1950 14250 1950
 Wire Wire Line
 	14250 2050 13850 2050
 Wire Wire Line
-	12950 2150 14250 2150
+	12950 2150 13850 2150
 Wire Wire Line
 	13850 2250 14250 2250
 Wire Wire Line
-	13750 2350 14250 2350
+	13750 2350 13850 2350
 Wire Wire Line
-	13750 2450 14250 2450
+	13750 2450 13850 2450
 Wire Wire Line
-	13200 2550 14250 2550
+	13200 2550 13450 2550
 Wire Wire Line
-	13350 2650 14250 2650
+	13350 2650 13850 2650
 Wire Wire Line
-	13550 2750 14250 2750
+	13550 2750 13850 2750
 Wire Wire Line
 	14250 2850 13850 2850
 Wire Wire Line
-	13450 2950 14250 2950
+	13450 2950 13850 2950
 Wire Wire Line
 	13850 3050 14250 3050
 Wire Wire Line
@@ -2187,7 +2156,7 @@ Wire Wire Line
 Wire Wire Line
 	13850 3350 14250 3350
 Wire Wire Line
-	13100 3550 14250 3550
+	13100 3550 13850 3550
 Wire Wire Line
 	14250 3650 13850 3650
 Wire Wire Line
@@ -2197,15 +2166,15 @@ Wire Wire Line
 Wire Wire Line
 	13850 3950 14250 3950
 Wire Wire Line
-	13750 4050 14250 4050
+	13750 4050 13850 4050
 Wire Wire Line
-	13750 4150 14250 4150
+	13750 4150 13850 4150
 Wire Wire Line
-	13750 4350 14250 4350
+	13750 4350 13850 4350
 Wire Wire Line
-	13750 4450 14250 4450
+	13750 4450 13850 4450
 Wire Wire Line
-	13250 4550 14250 4550
+	13250 4550 13850 4550
 Connection ~ 13850 1550
 Wire Wire Line
 	13200 2550 13200 2650
@@ -2217,35 +2186,35 @@ Connection ~ 13850 2950
 Connection ~ 13850 3550
 Connection ~ 13850 4550
 Wire Wire Line
-	13000 4750 13000 5050
+	13000 4750 13000 4900
 Wire Wire Line
 	13300 5350 13300 5400
 Connection ~ 13850 5350
 Wire Wire Line
-	13550 4650 13550 4950
+	13550 4650 13550 4750
 Wire Wire Line
 	13000 4900 13550 4900
 Connection ~ 13000 4900
 Wire Wire Line
-	13550 4650 14250 4650
+	13550 4650 13850 4650
 Wire Wire Line
-	13550 4750 14250 4750
+	13550 4750 13850 4750
 Wire Wire Line
-	13550 4850 14250 4850
+	13550 4850 13850 4850
 Wire Wire Line
-	13550 4950 14250 4950
+	13550 4950 13850 4950
 Wire Wire Line
-	13100 1250 14250 1250
+	13100 1250 13850 1250
 Wire Wire Line
-	13300 1150 14250 1150
+	13300 1150 13850 1150
 Wire Wire Line
 	14250 1050 13850 1050
 Wire Wire Line
-	13100 950  14250 950 
+	13100 950  13300 950 
 Wire Wire Line
-	13100 4250 14250 4250
+	13100 4250 13250 4250
 Wire Wire Line
-	13750 3450 14250 3450
+	13750 3450 13850 3450
 Wire Wire Line
 	2150 7000 2150 7850
 Wire Wire Line
@@ -2294,7 +2263,7 @@ Connection ~ 13850 1450
 Wire Wire Line
 	4450 3600 4800 3600
 Wire Wire Line
-	15150 950  15350 950 
+	15150 950  15200 950 
 Wire Wire Line
 	15350 1150 15200 1150
 Wire Wire Line
@@ -2315,7 +2284,7 @@ Connection ~ 13850 1850
 Wire Wire Line
 	12200 3200 12100 3200
 Wire Wire Line
-	12200 2950 12200 3200
+	12200 2950 12200 3100
 Wire Wire Line
 	12100 3100 12200 3100
 Connection ~ 12200 3100
@@ -2327,7 +2296,7 @@ Connection ~ 13850 4950
 Wire Wire Line
 	10300 3650 10250 3650
 Wire Wire Line
-	10250 3650 10250 3950
+	10250 3650 10250 3800
 Wire Wire Line
 	10250 3950 10300 3950
 Wire Wire Line
@@ -2338,7 +2307,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3950 10800 3950
 Wire Wire Line
-	9300 3800 9850 3800
+	9300 3800 9500 3800
 Wire Wire Line
 	9700 3800 9700 4100
 Connection ~ 9700 3800
@@ -2348,21 +2317,21 @@ Wire Wire Line
 	9500 4250 9400 4250
 Connection ~ 9500 3800
 Wire Wire Line
-	8450 3800 9000 3800
+	8450 3800 8650 3800
 Wire Wire Line
 	9400 4450 9400 4800
 Wire Wire Line
-	7900 3800 8150 3800
+	7900 3800 8000 3800
 Wire Wire Line
-	7250 3800 7600 3800
+	7250 3800 7500 3800
 Wire Wire Line
 	7250 3800 7250 4350
 Wire Wire Line
-	6950 4350 7400 4350
+	6950 4350 7250 4350
 Wire Wire Line
 	7850 3550 8000 3550
 Wire Wire Line
-	8000 3550 8000 4250
+	8000 3550 8000 3800
 Connection ~ 8000 3800
 Wire Wire Line
 	7650 3550 7500 3550
@@ -2382,13 +2351,13 @@ Wire Wire Line
 Wire Wire Line
 	9700 4800 9700 4300
 Wire Wire Line
-	8150 4800 9800 4800
+	8150 4800 9400 4800
 Connection ~ 9700 4800
 Connection ~ 9400 4800
 Wire Wire Line
 	10300 5150 10250 5150
 Wire Wire Line
-	10250 5150 10250 5450
+	10250 5150 10250 5300
 Wire Wire Line
 	10250 5450 10300 5450
 Wire Wire Line
@@ -2399,7 +2368,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 5450 10800 5450
 Wire Wire Line
-	9300 5300 9850 5300
+	9300 5300 9500 5300
 Wire Wire Line
 	9700 5300 9700 5600
 Connection ~ 9700 5300
@@ -2409,21 +2378,21 @@ Wire Wire Line
 	9500 5750 9400 5750
 Connection ~ 9500 5300
 Wire Wire Line
-	8450 5300 9000 5300
+	8450 5300 8650 5300
 Wire Wire Line
 	9400 6300 9400 5950
 Wire Wire Line
-	7900 5300 8150 5300
+	7900 5300 8000 5300
 Wire Wire Line
-	7250 5300 7600 5300
+	7250 5300 7500 5300
 Wire Wire Line
 	7250 5300 7250 5850
 Wire Wire Line
-	6950 5850 7400 5850
+	6950 5850 7250 5850
 Wire Wire Line
 	7850 5050 8000 5050
 Wire Wire Line
-	8000 5050 8000 5750
+	8000 5050 8000 5300
 Connection ~ 8000 5300
 Wire Wire Line
 	7650 5050 7500 5050
@@ -2449,9 +2418,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 5850 6950 5100
 Wire Wire Line
-	6250 5100 6550 5100
+	6250 5100 6300 5100
 Wire Wire Line
-	6250 4900 6550 4900
+	6250 4900 6300 4900
 Wire Wire Line
 	6300 5500 6300 5100
 Connection ~ 6300 5100
@@ -2466,14 +2435,14 @@ Wire Wire Line
 	6500 5100 6500 5450
 Connection ~ 6500 5100
 Wire Wire Line
-	6500 5750 6500 6300
+	6500 5750 6500 5900
 Wire Wire Line
-	6500 6300 9800 6300
+	6500 6300 8150 6300
 Wire Wire Line
 	6300 5900 6500 5900
 Connection ~ 6500 5900
 Wire Wire Line
-	6300 4200 6300 4900
+	6300 4200 6300 4400
 Wire Wire Line
 	6300 4400 6150 4400
 Connection ~ 6300 4900
@@ -2483,15 +2452,15 @@ Connection ~ 6300 4400
 Wire Wire Line
 	5550 4400 5850 4400
 Wire Wire Line
-	5550 4200 5550 5000
+	5550 4200 5550 4400
 Wire Wire Line
-	5350 5000 5650 5000
+	5350 5000 5550 5000
 Wire Wire Line
 	5900 4200 5550 4200
 Connection ~ 5550 4400
 Connection ~ 5550 5000
 Wire Wire Line
-	9450 2200 9650 2200
+	9450 2200 9550 2200
 Wire Wire Line
 	9350 1800 9550 1800
 Wire Wire Line
@@ -2502,7 +2471,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 1800 8750 2300
 Wire Wire Line
-	8500 2300 8850 2300
+	8500 2300 8750 2300
 Connection ~ 8750 2300
 Wire Wire Line
 	10150 2200 9950 2200
@@ -2543,7 +2512,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4700 5800 4700
 $Comp
-L VCC #PWR049
+L DVDLaserScanner-rescue:VCC #PWR049
 U 1 1 592C4E74
 P 4650 1750
 F 0 "#PWR049" H 4650 1600 50  0001 C CNN
@@ -2558,7 +2527,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1750 3950 1800
 $Comp
-L VCC #PWR050
+L DVDLaserScanner-rescue:VCC #PWR050
 U 1 1 592C590F
 P 6950 1800
 F 0 "#PWR050" H 6950 1650 50  0001 C CNN
@@ -2579,7 +2548,7 @@ F1+
 Text GLabel 14900 6300 0    60   Input ~ 0
 T1+
 $Comp
-L PAD X5
+L DVDLaserScanner-rescue:PAD X5
 U 1 1 592BD6A0
 P 15300 5800
 F 0 "X5" H 15419 5868 60  0000 L CNN
@@ -2590,7 +2559,7 @@ F 3 "" H 15300 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PAD X6
+L DVDLaserScanner-rescue:PAD X6
 U 1 1 592BDBBA
 P 15300 6050
 F 0 "X6" H 15419 6118 60  0000 L CNN
@@ -2601,7 +2570,7 @@ F 3 "" H 15300 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PAD X7
+L DVDLaserScanner-rescue:PAD X7
 U 1 1 592BDC7E
 P 15300 6300
 F 0 "X7" H 15419 6368 60  0000 L CNN
@@ -2618,7 +2587,7 @@ Wire Wire Line
 Wire Wire Line
 	15200 5800 15000 5800
 $Comp
-L C_Small C6
+L DVDLaserScanner-rescue:C_Small C6
 U 1 1 592C0CA6
 P 4350 9400
 F 0 "C6" H 4100 9450 50  0000 L CNN
@@ -2642,4 +2611,218 @@ Wire Wire Line
 Connection ~ 4150 8850
 Text Notes 8150 5600 0    60   ~ 0
 6.8k\n
+Wire Wire Line
+	4450 3600 4450 3850
+Wire Wire Line
+	4450 2350 4450 2600
+Wire Wire Line
+	4450 4700 4450 5000
+Wire Wire Line
+	3700 950  3700 2000
+Wire Wire Line
+	3600 3450 3750 3450
+Wire Wire Line
+	3600 4550 3750 4550
+Wire Wire Line
+	4450 1250 4450 1500
+Wire Wire Line
+	6800 2200 7400 2200
+Wire Wire Line
+	6800 1250 7350 1250
+Wire Wire Line
+	5450 1750 5450 1850
+Wire Wire Line
+	3600 2200 3750 2200
+Wire Wire Line
+	3600 1150 3750 1150
+Wire Wire Line
+	2400 2600 2450 2600
+Wire Wire Line
+	2250 2600 2400 2600
+Wire Wire Line
+	2250 2600 2250 2800
+Wire Wire Line
+	3700 3250 3700 4350
+Wire Wire Line
+	1300 9650 1300 9800
+Wire Wire Line
+	2500 9650 3100 9650
+Wire Wire Line
+	1900 9650 2500 9650
+Wire Wire Line
+	1300 9150 1300 9250
+Wire Wire Line
+	2500 9150 3100 9150
+Wire Wire Line
+	1900 9150 2500 9150
+Wire Wire Line
+	13150 7750 13150 7850
+Wire Wire Line
+	10650 8850 10650 8900
+Wire Wire Line
+	8900 8650 8900 8700
+Wire Wire Line
+	9950 8500 10000 8500
+Wire Wire Line
+	9950 8850 10000 8850
+Wire Wire Line
+	5800 1750 5800 2100
+Wire Wire Line
+	3100 9650 3650 9650
+Wire Wire Line
+	3100 9150 3100 9250
+Wire Wire Line
+	14250 8200 14600 8200
+Wire Wire Line
+	13850 1550 14250 1550
+Wire Wire Line
+	13850 2550 14250 2550
+Wire Wire Line
+	13550 2550 13850 2550
+Wire Wire Line
+	13850 2650 14250 2650
+Wire Wire Line
+	13850 2750 14250 2750
+Wire Wire Line
+	13850 2950 14250 2950
+Wire Wire Line
+	13850 3550 14250 3550
+Wire Wire Line
+	13850 4550 14250 4550
+Wire Wire Line
+	13850 5350 14250 5350
+Wire Wire Line
+	13000 4900 13000 5050
+Wire Wire Line
+	13850 2150 14250 2150
+Wire Wire Line
+	13450 2550 13550 2550
+Wire Wire Line
+	13850 4250 14250 4250
+Wire Wire Line
+	13250 4250 13850 4250
+Wire Wire Line
+	13850 5050 14250 5050
+Wire Wire Line
+	13550 4850 13550 4900
+Wire Wire Line
+	13550 4900 13550 4950
+Wire Wire Line
+	8900 8200 8900 8300
+Wire Wire Line
+	13850 1150 14250 1150
+Wire Wire Line
+	13850 950  14250 950 
+Wire Wire Line
+	13300 950  13850 950 
+Wire Wire Line
+	13850 1250 14250 1250
+Wire Wire Line
+	13850 1450 14250 1450
+Wire Wire Line
+	15200 950  15350 950 
+Wire Wire Line
+	13850 2350 14250 2350
+Wire Wire Line
+	13850 2450 14250 2450
+Wire Wire Line
+	13850 1750 14250 1750
+Wire Wire Line
+	13850 1850 14250 1850
+Wire Wire Line
+	12200 3100 12200 3200
+Wire Wire Line
+	13550 4750 13550 4850
+Wire Wire Line
+	13850 4750 14250 4750
+Wire Wire Line
+	13850 4650 14250 4650
+Wire Wire Line
+	13850 4850 14250 4850
+Wire Wire Line
+	13850 4950 14250 4950
+Wire Wire Line
+	10250 3800 10250 3950
+Wire Wire Line
+	9700 3800 9850 3800
+Wire Wire Line
+	9500 3800 9700 3800
+Wire Wire Line
+	8000 3800 8150 3800
+Wire Wire Line
+	8000 3800 8000 4250
+Wire Wire Line
+	7500 3800 7600 3800
+Wire Wire Line
+	7250 4350 7400 4350
+Wire Wire Line
+	8650 3800 9000 3800
+Wire Wire Line
+	9700 4800 9800 4800
+Wire Wire Line
+	9400 4800 9700 4800
+Wire Wire Line
+	10250 5300 10250 5450
+Wire Wire Line
+	9700 5300 9850 5300
+Wire Wire Line
+	9500 5300 9700 5300
+Wire Wire Line
+	8000 5300 8150 5300
+Wire Wire Line
+	8000 5300 8000 5750
+Wire Wire Line
+	7500 5300 7600 5300
+Wire Wire Line
+	7250 5850 7400 5850
+Wire Wire Line
+	8650 5300 9000 5300
+Wire Wire Line
+	9700 6300 9800 6300
+Wire Wire Line
+	9400 6300 9700 6300
+Wire Wire Line
+	6300 5100 6500 5100
+Wire Wire Line
+	8150 6300 9400 6300
+Wire Wire Line
+	6500 5100 6550 5100
+Wire Wire Line
+	6500 5900 6500 6300
+Wire Wire Line
+	6300 4900 6550 4900
+Wire Wire Line
+	6300 4400 6300 4900
+Wire Wire Line
+	5550 4400 5550 5000
+Wire Wire Line
+	5550 5000 5650 5000
+Wire Wire Line
+	9550 2200 9650 2200
+Wire Wire Line
+	8750 2300 8850 2300
+Wire Wire Line
+	13850 3450 14250 3450
+Wire Wire Line
+	14600 8200 14800 8200
+Wire Wire Line
+	13850 5150 14250 5150
+Wire Wire Line
+	13850 5250 14250 5250
+Wire Wire Line
+	13850 4050 14250 4050
+Wire Wire Line
+	13850 4150 14250 4150
+Wire Wire Line
+	13850 4350 14250 4350
+Wire Wire Line
+	13850 4450 14250 4450
+Wire Wire Line
+	3650 9650 4150 9650
+Wire Wire Line
+	4150 9650 4350 9650
+Wire Wire Line
+	3650 8850 4150 8850
+Wire Wire Line
+	4150 8850 4350 8850
 $EndSCHEMATC
